@@ -22,22 +22,24 @@ if __name__ == "__main__":
 
 """
 ✅ Condition 1: n >= k * k
+
 📌 Why?
 
 The smallest possible sum of k distinct positive odd numbers is: k² 
 
- 
 So, you can’t use k odd numbers to reach n if n < k² — it's mathematically impossible.
 
 🧪 Example:
-Try writing n = 5 as sum of k = 3 distinct odd numbers:
 
-Minimum sum for 3 distinct odds = 
-1+3+5=9
+If n=17 and k=3
 
-But 5 < 9 → not possible ❌
+k²=9 not 17
 
-So, this condition ensures enough value to work with.
+Numbers: 1, 5, 11
+Sum: 1 + 5 + 11 = 17
+
+All are distinct odd numbers!
+
 
 ✅ Condition 2: n % 2 == k % 2
 
@@ -62,3 +64,6 @@ k = 2 → need to add 2 odd numbers → sum will be even (e.g., 1 + 3 = 4)
 So n must be even too (e.g., n = 4 ✅, n = 5 ❌)
 
 """
+
+
+
