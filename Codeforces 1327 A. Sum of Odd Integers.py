@@ -18,6 +18,8 @@ if __name__ == "__main__":
 
 
 
+
+
 """
 ✅ Condition 1: n >= k * k
 📌 Why?
