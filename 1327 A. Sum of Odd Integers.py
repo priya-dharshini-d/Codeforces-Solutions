@@ -1,5 +1,5 @@
-# Problem name - A. Sum of Odd Integers
-# Problem url - https://codeforces.com/contest/1327/problem/A
+# Problem name - 1327 A. Sum of Odd Integers
+
 
 def can_represent_as_distinct_odds(n, k):
     return n >= k * k and n % 2 == k % 2
