@@ -1,6 +1,5 @@
-//Problem name - 1419A - Digit Game
-//Time limit - 1000 ms
-//Memory Limit - 262 MB  
+#Problem name - 1419A - Digit Game
+
 
 def solve():
     n = int(input())
