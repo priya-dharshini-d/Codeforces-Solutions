@@ -15,7 +15,7 @@ def main():
     non_square_numbers = [num for num in numbers if not is_perfect_square(num)]
     non_square_numbers.sort()
 
-    print(non_square_numbers[-1])  # Last element is the largest
+    print(non_square_numbers[-1])     # Last element is the largest
 
 if __name__ == "__main__":
     main()
